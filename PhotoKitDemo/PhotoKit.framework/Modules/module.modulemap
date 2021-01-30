@@ -1,0 +1,11 @@
+framework module PhotoKit {
+  umbrella header "PhotoKit.h"
+
+  export *
+  module * { export * }
+}
+
+module PhotoKit.Swift {
+    header "PhotoKit-Swift.h"
+    requires objc
+}
